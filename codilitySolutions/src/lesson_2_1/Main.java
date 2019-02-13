@@ -14,6 +14,9 @@ public class Main {
 	public static void main(String args[]) {
 		Solution s = new Solution();
 		int[] A = {1,3,5,7,9,7,5,3,1};
-		System.out.println(s.solution(A));
+		if (s.solution(A) == 9)
+			System.out.println("correct");
+		else
+			System.out.println("wrong");
 	}
 }
