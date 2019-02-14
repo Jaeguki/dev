@@ -15,9 +15,9 @@ public class Solution {
     	int [] temp = new int[A.length];
     	for(int i = 0; i < A.length; i++) {
     		try {
-    			temp[i+K] = A[i];
+    			temp[i+K%A.length] = A[i];
     		}catch(ArrayIndexOutOfBoundsException e) {
-    			temp[i+K-A.length] = A[i];
+    			temp[i+K%A.length-A.length] = A[i];
     		}
     	}
     	return temp;

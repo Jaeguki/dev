@@ -14,7 +14,7 @@ public class Main {
 	public static void main(String args[]) {
 		Solution s = new Solution();
 		int [] A = {3, 8, 9, 7, 6};
-		int [] B = s.solution(A, 3);
+		int [] B = s.solution(A, 10);
 		int [] C = {9, 7, 6, 3, 8};
 		String result = "";
 		for(int i = 0; i < B.length; i++) {
